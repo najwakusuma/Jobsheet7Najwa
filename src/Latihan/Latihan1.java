@@ -14,4 +14,5 @@ public class Latihan1 {
         String identitas = "Najwa Kusuma Mustafa / XR5 / 28";
         System.out.println("identitas : "+ identitas);
         
+        
 }
