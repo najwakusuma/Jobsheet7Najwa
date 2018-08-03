@@ -37,11 +37,7 @@ public class SaranBahan2Resep {
             System.out.print("masukkan no pilihan anda :");
             int bahan2 = scanner.nextInt();
             
-        }else
-            System.out.println("mohon maaf, pilihan tidak ditemukan," 
-                    + "tidak dapat memberikan saran resep");
-            int bahan2 = scanner.nextInt();
-        if(bahan2 >= 1 && bahan2 <= 3)
+            if(bahan2 >= 1 && bahan2 <= 3)
         {
             if(bahan1==1)
                 switch(bahan2)
@@ -63,10 +59,10 @@ public class SaranBahan2Resep {
                     case 3 : System.out.println(
                              "Anda dapa membuat telur rebus");
                 }
-            
         }else
-            System.out.println("Mohon Maa, Pilihan tidak ditemukan,"
-                + "tidak dapat memberikan saran resep");
+            System.out.println("Mohon Maaf, Pilihan tidak ditemukan,"+ "tidak dapat memberikan saran resep");
+        }else
+            System.out.println("mohon maaf, pilihan tidak ditemukan," + "tidak dapat memberikan saran resep");
             }
         }
     
