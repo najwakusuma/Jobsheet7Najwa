@@ -29,5 +29,11 @@ public class Latihan1 {
         if (a > 5);
              System.out.println("isi variabel a : "+ a);
              System.out.println("nilai a lebih dari 5");
-        }
+        System.out.println("\nIF..ELSE..");
+        if(a < 5) {
+            System.out.println("isi variable a : "+ a);
+            System.out.println("nilai a kurang dari 5");
+        } else System.out.println("nilai a lebih dari atau sama dengan 5");
+        }        
 }
+
