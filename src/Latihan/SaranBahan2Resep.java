@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Latihan;
-
+import java.util.Scanner;
 /**
  *
  * @author user
@@ -15,5 +15,12 @@ public class SaranBahan2Resep {
         System.out.println("Identiras : "+ identitas);
         
         System.out.print("\nSaran Resep dari Bahan milik anda\n");
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Bahan Pertama: ");
+        System.out.println("1. Pisang");
+        System.out.println("2. Telur");
+        System.out.print("Masukkan no pilihan Anda :");
+        int bahan1 = scanner.nextInt();
     }
 }
